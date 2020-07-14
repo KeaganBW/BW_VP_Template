@@ -1,0 +1,83 @@
+Begin Object Class=/Script/Engine.Material Name="NewMaterial"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Composure/Materials/Compositing/Over.Over"'
+      FunctionInputs(0)=(ExpressionInputId=FFA56428479B99700F6E97A3F573E013,Input=(Expression=MaterialExpressionTextureSampleParameter2D'"NewMaterial:MaterialExpressionTextureSampleParameter2D_2"',OutputIndex=5,InputName="A",Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1))
+      FunctionInputs(1)=(ExpressionInputId=BEE5511947BE2B29B8DFE0AAA0730EFE,Input=(Expression=MaterialExpressionMaterialFunctionCall'"NewMaterial:MaterialExpressionMaterialFunctionCall_0"',InputName="B"))
+      FunctionInputs(2)=(ExpressionInputId=5410C40F47387DBD39E8FD8354FB8C5B,Input=(OutputIndex=-1,InputName="Mask"))
+      FunctionOutputs(0)=(ExpressionOutputId=12C54E1D49D919CF4AA2C3835DBDED2A,Output=(OutputName="RGBA"))
+      FunctionOutputs(1)=(ExpressionOutputId=CCE0BADF4E43B81B84B426865C6283BD,Output=(OutputName="A"))
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=9E104BF8447352EEB965FEA6B8B340A0
+      Material=Material'"NewMaterial"'
+      Outputs(0)=(OutputName="RGBA")
+      Outputs(1)=(OutputName="A")
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="BG"
+      ExpressionGUID=A8EF2FEC461AB6F839A23C8CDF9B9181
+      MaterialExpressionEditorX=-589
+      MaterialExpressionEditorY=403
+      MaterialExpressionGuid=AC7042F7404801D6DCD57C93E71B1FA4
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="Media Plate"
+      ExpressionGUID=1FEC6FFC47A518AF2D836881B1423822
+      MaterialExpressionEditorX=-576
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=AC7042F7404801D6DCD57C93E71B1FA4
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_2"
+      ParameterName="FG"
+      ExpressionGUID=F04EA58A45DB859B7C75AC8BA73AA1DC
+      MaterialExpressionEditorX=-544
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=AC7042F7404801D6DCD57C93E71B1FA4
+      Material=Material'"NewMaterial"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Composure/Materials/Compositing/Over.Over"'
+      FunctionInputs(0)=(ExpressionInputId=FFA56428479B99700F6E97A3F573E013,Input=(Expression=MaterialExpressionTextureSampleParameter2D'"NewMaterial:MaterialExpressionTextureSampleParameter2D_1"',OutputIndex=5,InputName="A",Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1))
+      FunctionInputs(1)=(ExpressionInputId=BEE5511947BE2B29B8DFE0AAA0730EFE,Input=(Expression=MaterialExpressionTextureSampleParameter2D'"NewMaterial:MaterialExpressionTextureSampleParameter2D_0"',OutputIndex=5,InputName="B",Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1))
+      FunctionInputs(2)=(ExpressionInputId=5410C40F47387DBD39E8FD8354FB8C5B,Input=(OutputIndex=-1,InputName="Mask"))
+      FunctionOutputs(0)=(ExpressionOutputId=12C54E1D49D919CF4AA2C3835DBDED2A,Output=(OutputName="RGBA"))
+      FunctionOutputs(1)=(ExpressionOutputId=CCE0BADF4E43B81B84B426865C6283BD,Output=(OutputName="A"))
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=9E104BF8447352EEB965FEA6B8B340A0
+      Material=Material'"NewMaterial"'
+      Outputs(0)=(OutputName="RGBA")
+      Outputs(1)=(OutputName="A")
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"')
+   MaterialDomain=MD_PostProcess
+   Expressions(0)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"'
+   Expressions(1)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"'
+   Expressions(2)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_2"'
+   Expressions(3)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(4)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=44B88D3F4666F554B8794EB27FFFE0F2
+   CachedExpressionData=(Parameters=(Entries[2]=(NameHashes=(803679279591844051,3322876393557696440,15940897774237215750),ParameterInfos=((Name="FG"),(Name="Media Plate"),(Name="BG")),ExpressionGuids=(F04EA58A45DB859B7C75AC8BA73AA1DC,1FEC6FFC47A518AF2D836881B1423822,A8EF2FEC461AB6F839A23C8CDF9B9181),Overrides=(False,False,False)),TextureValues=(Texture2D'"/Engine/EngineResources/DefaultTexture.DefaultTexture"',Texture2D'"/Engine/EngineResources/DefaultTexture.DefaultTexture"',Texture2D'"/Engine/EngineResources/DefaultTexture.DefaultTexture"'),TextureChannelNameValues=((),(),())),ReferencedTextures=(Texture2D'"/Engine/EngineResources/DefaultTexture.DefaultTexture"'),FunctionInfos=((StateId=24A90F5B4D7E7F58E34FABA4A12631CE,Function=MaterialFunction'"/Composure/Materials/Compositing/Over.Over"'),(StateId=24A90F5B4D7E7F58E34FABA4A12631CE,Function=MaterialFunction'"/Composure/Materials/Compositing/Over.Over"')),QualityLevelsUsed=(False,True,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=3691B92E408C1F900E74BAB4F2BD2B4C
+End Object
